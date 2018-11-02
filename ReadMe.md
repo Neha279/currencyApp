@@ -1,8 +1,8 @@
 ## Install following pacakage to Run Server:
 
-npm install express --save
-npm install mongoose --save
-npm install mocha chai sinon sinon-mongoose --save
+> npm install express --save
+> npm install mongoose --save
+> npm install mocha chai sinon sinon-mongoose --save
 
 ## Installed following for client - need node8 > version 
  Following steps used to create the client  
@@ -50,14 +50,17 @@ Run below cmd on respected directory
 
 ## API SPEC 
 GET /getProfitSummary HTTP/1.1
+
 Host: 127.0.0.1:3001
+
 cache-control: no-cache
+
 queryparameter : 
  date :
    type : string
    required  : false 
 
-
+## Tested in Chrome Browser
 
 
 
